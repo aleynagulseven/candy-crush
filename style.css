@@ -1,0 +1,87 @@
+.grid {
+  height: 560px;
+  width: 560px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 10px;
+  color: #85796b;
+  margin-top: 75px;
+  background-color: rgba(109, 127, 151, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+.grid div {
+  height: 70px;
+  width: 70px;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+
+body {
+  background-image: url("images/candy-crush-background-2.png");
+  background-size: 100%;
+  display: flex;
+}
+
+.score-board {
+  background-color: pink;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 350px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  text-align: center;
+  background-image: linear-gradient(#ffb6c1, #ffc0cb);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
+
+#start-game {
+  background-color: #ffc0cb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  width: 25rem;
+  height: 4.5rem;
+  position: absolute;
+  align-self: flex-end;
+  border-radius: 50px;
+  border-color: palevioletred;
+  border-top-color: palevioletred;
+  border-bottom-color: palevioletred;
+}
+
+#game-over {
+  background-color: #ffc0cb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  width: 25rem;
+  height: 4.5rem;
+  position: absolute;
+  align-self: flex-start;
+  margin-top: 670px;
+  border-radius: 50px;
+  border-color: palevioletred;
+  border-top-color: palevioletred;
+  border-bottom-color: palevioletred;
+}
+
+#start-game a,
+#game-over a {
+  text-decoration: none;
+  color: purple;
+}
